@@ -1,10 +1,11 @@
 import React from 'react'
-import Nav from '../Component/Nav'
+
 const Aboutpage = () => {
   return (
     <>
-    <Nav />
-    <div>This is Aboutpage</div>
+    <div className='about-page'>
+      <h1>i am about page</h1>
+    </div>
     </>
   )
 }
