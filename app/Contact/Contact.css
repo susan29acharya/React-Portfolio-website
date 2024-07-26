@@ -1,0 +1,94 @@
+.contact-page{
+    height: 88vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.contact-page h1{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #f9004d;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+.location{
+    height: 57.5vh;
+    width: 20%;
+    background-color: #f9004d;
+    border-radius: 7px;
+    margin-left: 12%;
+    margin-top: 3%;
+    position: absolute;
+    z-index: 2;
+}
+.location h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.location p{
+    padding-left: 5px;
+    color:white;
+}
+.contact-form{
+    height: 69vh;
+    width: 55%;
+    margin-left: 22%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #191919;
+    position: absolute;
+    z-index: 1;
+}
+.form{
+    height: 64vh;
+    width: 70%;
+    margin-left: 29%;
+}
+.form h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #191919;
+}
+.form p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.form form {
+    margin-top: 6%;
+}
+.form form input{
+    height: 8vh;
+    width: 65%;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-bottom: 3.5%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.form form input::placeholder{
+    letter-spacing: 1px;
+    color: #f9004d;
+}
+.form form button{
+    margin-top: 2%;
+    height: 5.5vh;
+    width: 20%;
+    background-color: #f9004d;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.form form button:hover{
+    background-color: #f9004fe5;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 17px;
+    color: white;
+}

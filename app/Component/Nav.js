@@ -12,6 +12,7 @@ const Nav = () => {
         <ul>
         <li><Link href="/Home" className='link'>home</Link></li>
         <li><Link href="/About" className='link'>about</Link></li>
+        <li><Link href="/Skills" className='link'>skills</Link></li>
         <li><Link href="/Contact" className='link'>contact</Link></li>
 
       </ul>

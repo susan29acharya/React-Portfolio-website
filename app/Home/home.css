@@ -1,6 +1,71 @@
 .Home-page{
-    height: 80vh;
-    width: 80%;
-    background-color: red;
+    height: 85vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    /* background-color: rgb(245, 245, 245); */
     border-radius: 10px;
+    display: flex;
+}
+.body-left{
+    height: 70vh;
+    width: 60%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.body-left h1{
+    padding-top: 18%;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 40px;
+}
+.body-left span{
+    color: #f9004d;
+}
+.body-left p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-top: 1%;
+}
+.body-left button{
+    margin-left: 41%;
+    margin-top: 7%;
+    height: 5.5vh;
+    width: 15%;
+    background-color: #f9004d;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.button-link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 17px;
+    color: white;
+}
+.body-left button:hover{
+    background-color: #f9004fe5;
+    cursor: pointer;
+}
+.body-right{
+    height: 60vh;
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 6%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #191919;
+    transition: 0.4s ease;
+    /* border: 2px solid #f9004d; */
+}
+.body-right img{
+    height:60vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.body-right:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
 }
