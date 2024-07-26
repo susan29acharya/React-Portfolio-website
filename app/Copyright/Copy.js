@@ -4,7 +4,7 @@ const Copyright = () => {
   return (
     <>
     <div className='copyright'>
-        <p>---- Copyright Susanacharya &copy; 2024 ----</p>
+        <p>---- Copyright.Susanacharya.&copy;*2024* ----</p>
     </div>
     </>
   )
