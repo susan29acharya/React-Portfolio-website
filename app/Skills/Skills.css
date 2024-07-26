@@ -7,15 +7,14 @@
     margin-left: 5%;
     /* background-color: whitesmoke; */
     border-radius: 10px;
-    margin-top: 1%;
+
 }
 .skills-page h1{
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #f9004d;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 .container-flex-box{
     height: 65vh;

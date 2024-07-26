@@ -5,7 +5,7 @@ const Skills_page = () => {
   return (
     <>
     <div className='skills-page'>
-     <h1>Skills</h1>
+     <h1>-- Skills --</h1>
       <div className='container-flex-box'>
         <Card />
 

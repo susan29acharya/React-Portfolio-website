@@ -7,7 +7,7 @@ const Aboutpage = () => {
 
         <div className='container'>
 
-          <h1>About me</h1>
+          <h1>-- About me --</h1>
 
           <div className='flex-box'>
             <div className='left-img-section'>

@@ -5,9 +5,9 @@ const Contact_page = () => {
   return (
     <>
       <div className='contact-page'>
-        <h1>Contact</h1>
+        <h1>-- Contact --</h1>
         <div className='location'>
-          <h2>Contact me</h2>
+          <h2>-- Contact me --</h2>
           <p>Location: abcd,Jhapa</p>
           <p>Phone: 9800000000</p>
           <p>Email: susan80@gmail.com</p>
