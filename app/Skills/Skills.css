@@ -1,3 +1,6 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
 .skills-page{
     height: 85vh;
     width: 90%;
@@ -16,8 +19,8 @@
 }
 .container-flex-box{
     height: 65vh;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 98%;
+    margin-left: 1%;
     display: flex;
     justify-content: space-evenly;
 

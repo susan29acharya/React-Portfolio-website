@@ -1,0 +1,14 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.copyright{
+    height: 7vh;
+    width: 100%;
+}
+.copyright p{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-top: 1%;
+    color: blue;
+}

@@ -5,6 +5,7 @@ import "./About/About.css"
 import "./Contact/Contact.css"
 import "./Skills/Skills.css"
 import "./Component/Card.css"
+import "./Copyright/Copy.css"
 
 const inter = Inter({ subsets: ["latin"] });
 

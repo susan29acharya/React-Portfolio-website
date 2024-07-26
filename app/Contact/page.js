@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+
 const Contact_page = () => {
   return (
     <>
@@ -7,9 +8,9 @@ const Contact_page = () => {
         <h1>Contact</h1>
         <div className='location'>
           <h2>Contact me</h2>
-          <p>Location: Kerkha,Jhapa</p>
+          <p>Location: abcd,Jhapa</p>
           <p>Phone: 9800000000</p>
-          <p>Email: dmksusan8@gmail.com</p>
+          <p>Email: susan80@gmail.com</p>
         </div>
 
         <div className='contact-form'>

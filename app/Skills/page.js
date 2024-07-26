@@ -8,8 +8,6 @@ const Skills_page = () => {
      <h1>Skills</h1>
       <div className='container-flex-box'>
         <Card />
-        
-
 
       </div>
     </div>
