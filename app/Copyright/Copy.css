@@ -2,8 +2,13 @@
     font-family: "Poppins", sans-serif;
 }
 .copyright{
-    height: 7vh;
-    width: 100%;
+    height: 40vh;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
 }
 .copyright p{
     text-align: center;
@@ -11,4 +16,47 @@
     word-spacing: 1px;
     padding-top: 1%;
     color: black;
+}
+.services{
+    height: 40vh;
+    width: 26%;
+    margin-top: 1%;
+}
+.services h3{
+    letter-spacing: 1px;
+    padding-left: 25px;
+    color: #f9004d;
+}
+.services li{
+    padding-bottom: 5%;
+}
+.useful-links{
+    height: 40vh;
+    width: 26%;
+    margin-top: 1%;
+
+}
+.icons{
+    height: 40vh;
+    width: 26%;
+    margin-top: 1%;
+}
+.useful-links h3{
+    letter-spacing: 1px;
+    padding-left: 25px;
+    color: #f9004d;
+}
+.useful-links li{
+    padding-bottom: 5%;
+    font-size: 17px;
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 17px !important;
+    color: black;
+}
+.icons h3{
+    letter-spacing: 1px;
+    padding-left: 25px;
+    color: #f9004d;
 }
