@@ -7,7 +7,20 @@ const Skills_page = () => {
     <div className='skills-page'>
      <h1>-- Skills --</h1>
       <div className='container-flex-box'>
-        <Card />
+        <Card image='./images/web.png'
+              title='web development'
+              desc='I can built desired website as per your need'
+        />
+
+          <Card image='./images/app.jpg'
+              title='App development'
+              desc='I can built desired App as per your need'
+        />
+
+        <Card image='./images/python.jpg'
+              title='Python Software'
+              desc='I can develop desired python software for your company'
+        />
 
       </div>
     </div>
