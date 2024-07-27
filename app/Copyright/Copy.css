@@ -24,17 +24,16 @@
 }
 .services h3{
     letter-spacing: 1px;
-    padding-left: 25px;
     color: #f9004d;
 }
 .services li{
     padding-bottom: 5%;
+    list-style: none;
 }
 .useful-links{
     height: 40vh;
     width: 26%;
     margin-top: 1%;
-
 }
 .icons{
     height: 40vh;
@@ -43,12 +42,12 @@
 }
 .useful-links h3{
     letter-spacing: 1px;
-    padding-left: 25px;
     color: #f9004d;
 }
 .useful-links li{
     padding-bottom: 5%;
     font-size: 17px;
+    list-style: none;
 }
 .footer-link{
     text-decoration: none;
@@ -59,4 +58,16 @@
     letter-spacing: 1px;
     padding-left: 25px;
     color: #f9004d;
+}
+.social-media-facebook-icons{
+    padding-left: 13%;
+}
+.social-media-facebook-icons:hover{
+    cursor: pointer;
+}
+.social-media-instagram-icons{
+    padding-left: 6%;
+}
+.social-media-instagram-icons:hover{
+    cursor: pointer;
 }
