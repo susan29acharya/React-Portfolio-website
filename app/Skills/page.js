@@ -8,12 +8,12 @@ const Skills_page = () => {
      <h1>-- Skills --</h1>
       <div className='container-flex-box'>
         <Card image='./images/web.png'
-              title='web development'
+              title='Web Development'
               desc='I can built desired website as per your need'
         />
 
           <Card image='./images/app.jpg'
-              title='App development'
+              title='App Development'
               desc='I can built desired App as per your need'
         />
 
