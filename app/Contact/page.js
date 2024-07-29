@@ -1,8 +1,30 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
 const Contact_page = () => {
+
+  const [name,setname]= useState("");
+  const [number,setnumber] = useState("");
+  const [email,setemail] = useState("");
+
+  const handlecalculation=(e)=>{
+    e.preventDefault();
+    submit();
+  }
+
+  const submit=()=>{
+    if(name==="" || number==="" || email === ""){
+      alert("enter the information");
+    }
+    else{
+      alert("Information send successfully")
+      setname("");
+      setnumber("");
+      setemail("");
+    }
+  }
   return (
     <>
       <div className='contact-page'>
@@ -28,11 +50,11 @@ const Contact_page = () => {
           <div className='form'>
             <h3>Get in touch</h3>
             <p>Feel free to contact me</p>
-            <form>
-              <input type='text' placeholder='Enter your name' /><br />
-              <input type='number' placeholder='Enter your number' /><br />
-              <input type='email' placeholder='Enter your email' /><br />
-              <button><Link href="#" className='link'>Send</Link></button>
+            <form onSubmit={handlecalculation}>
+              <input type='text' placeholder='Enter your name' value={name} onChange={(e)=>setname(e.target.value)}/><br />
+              <input type='number' placeholder='Enter your number' value={number} onChange={(e)=>setnumber(e.target.value)}/><br />
+              <input type='email' placeholder='Enter your email' value={email} onChange={(e)=> setemail(e.target.value)}/><br />
+              <button className='link' type='submit'>Send</button>
             </form>
           </div>
         </div>
