@@ -22,6 +22,7 @@ const Skills_page = () => {
               desc='I can develop desired python software for your company'
         />
 
+
       </div>
     </div>
     </>
