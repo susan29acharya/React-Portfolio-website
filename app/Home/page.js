@@ -7,7 +7,7 @@ const Home_page = () => {
     <div className='Home-page'>
 
           <div className='body-left'>
-            <h1>Hey! it's me <span>"Susan Acharya"</span></h1>
+            <h1>Hey! it's me <span>"Susan</span>Acharya"</h1>
             <p>-- Web designer and Developer --</p>
             <button><Link href= "#" className='button-link'>Hire me</Link></button>
           </div>

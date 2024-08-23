@@ -12,14 +12,15 @@
   font-family: "Playwrite HR Lijeva", cursive;
 }
 .nav ul{
+  height: 10vh;
+  width: 60%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  margin-left: 31%;
+  margin-left: 18%;
 }
 .nav ul li{
   list-style: none;
-  margin-right:30%;
 }
 .nav-link{
   color: black !important;

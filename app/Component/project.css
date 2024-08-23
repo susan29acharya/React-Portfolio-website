@@ -1,0 +1,41 @@
+.project_container{
+    height: 37vh;
+    width:60%;
+    box-shadow: 2px 2px 5px #191919;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-top: 4%;
+    display: flex;
+}
+.image{
+    height: 37vh;
+    width: 60%;
+    border-radius: 8px;
+}
+.image img{
+    height: 37vh;
+    width: 100%;
+    border-radius: 8px;
+}
+.info{
+    height: 35vh;
+    width: 49%;
+    margin-left: 0.5%;   
+    padding: 5px;
+    border-left: 1px solid black;
+}
+.info h2{
+    color: #f9004d;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.info p{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.info a{
+    text-decoration: none;
+    padding-left: 35%;
+    letter-spacing: 1px;
+}

@@ -29,8 +29,11 @@ const Contact_page = () => {
     <>
       <div className='contact-page'>
         <h1>-- Contact --</h1>
+        <img src='./images/contactboy.png'/>
 
         <div className='location'>
+
+        
           <h2>-- Contact me --</h2>
 
           <div className='flexbox1'>
@@ -47,6 +50,7 @@ const Contact_page = () => {
 
         </div>
 
+      
         <div className='contact-form'>
           <div className='form'>
             <h3>Get in touch</h3>

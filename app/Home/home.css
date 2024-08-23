@@ -39,6 +39,8 @@
 }
 .body-left span{
     color: #f9004d;
+    font-family: "Playwrite HR Lijeva", cursive;
+    padding-right: 2%;
 }
 .body-left p{
     font-size: 20px;

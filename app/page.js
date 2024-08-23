@@ -5,6 +5,7 @@ import Aboutpage from './About/page'
 import Skills_page from './Skills/page'
 import Contact_page from './Contact/page'
 import Copyright from './Copyright/Copy'
+import Project_page from './projec/page'
 const page = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const page = () => {
     <Home_page />
     <Aboutpage />
     <Skills_page />
+    <Project_page />
     <Contact_page/>
     <Copyright/>
     </>

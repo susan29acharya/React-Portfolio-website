@@ -1,10 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
-import Aboutpage from '../About/page'
-import Home_page from '../Home/page'
-import Skills_page from '../Skills/page'
-import Contact_page from '../Contact/page'
+
 const Copyright = () => {
   return (
     <>
@@ -28,6 +25,7 @@ const Copyright = () => {
             <li><Link href="/Home" className='links footer-link'>Home</Link></li>
             <li><Link href="/About" className='links footer-link'>About</Link></li>
             <li><Link href="/Skills" className='links footer-link'>Skills</Link></li>
+            <li><Link href="/projec" className='links footer-link'>Projects</Link></li>
             <li><Link href="/Contact" className='links footer-link'>Contact</Link></li>
 
           </ul>

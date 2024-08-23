@@ -4,8 +4,10 @@ import "./Home/home.css"
 import "./About/About.css"
 import "./Contact/Contact.css"
 import "./Skills/Skills.css"
+import "./projec/project.css"
 import "./Component/Card.css"
 import "./Copyright/Copy.css"
+import "./Component/project.css"
 
 const inter = Inter({ subsets: ["latin"] });
 
