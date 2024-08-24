@@ -155,7 +155,7 @@
 @media screen and (min-width: 300px) and (max-width: 1080px) {
 
     .contact-page{
-        height: 90vh;
+        height: 88vh;
         width: 90%;
         margin-left: 5%;
         margin-top: 35%;
@@ -165,7 +165,7 @@
     display: none;
     }
     .contact-form{
-        height: 55vh;
+        height: 60vh;
         width: 90.5%;
         margin-left:-1.5%;
         margin-top: 3%;

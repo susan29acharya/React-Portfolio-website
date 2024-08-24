@@ -73,7 +73,7 @@
 }
 @media screen and (min-width: 300px) and (max-width: 1080px) {
     .copyright{
-        height: 38vh;
+        height: 33vh;
         width: 95%;
         margin-left: 2.5%;
         margin-top: -35%;
