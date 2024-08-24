@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Project = (props) => {
     return (
         <>
@@ -12,7 +11,7 @@ const Project = (props) => {
                 <div className='info'>
                 <h2>{props.heading}</h2>
                 <p>{props.desc}</p>
-                <a href='#'>Github</a>
+                <a href={props.demo} target='_blank' rel='noopener noreferrer'>View Demo</a>
                 </div>
 
 
