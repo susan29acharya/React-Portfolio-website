@@ -116,8 +116,10 @@
     display: none;
     }
     .body-left {
-        height: 65vh;
-        width: 90%;
+        height: 50vh;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 20%;
     }
     .body-left h1 {
         padding-top: 20%;
@@ -133,17 +135,17 @@
     }
     
     .body-left p {
-        font-size: 16px;
+        font-size: 17px;
         letter-spacing: 1px;
         padding-left: 10%;
         word-spacing: 2px;
-        padding-top: 1%;
+        padding-top: 5%;
     }
     
     .body-left button {
         margin-left: 30%;
-        margin-top: 7%;
-        height: 5.5vh;
+        margin-top: 15%;
+        height: 5vh;
         width: 35%;
         background-color: #f9004d;
         border: none;
