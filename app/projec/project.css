@@ -23,9 +23,9 @@
     position: absolute;
     z-index: 2;
     margin-left: 30%; 
-    animation: right 1s linear;
+    animation: right  linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 50%;
+    animation-range: entry 0 cover 30%;
 }
 @keyframes right {
     from{
@@ -38,9 +38,9 @@
     }
 }
 .float-left{
-    animation: left 1s linear;
+    animation: left  linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 50%;
+    animation-range: entry 0 cover 30%;
 }
 @keyframes left {
     from{
