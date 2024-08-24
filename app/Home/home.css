@@ -105,3 +105,56 @@
     width: 100%;
     border-radius: 10px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .Home-page {
+        height: 70vh;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .body-right {
+    display: none;
+    }
+    .body-left {
+        height: 65vh;
+        width: 90%;
+    }
+    .body-left h1 {
+        padding-top: 20%;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 37px;
+    }
+    
+    .body-left span {
+        color: #f9004d;
+        font-family: "Playwrite HR Lijeva", cursive;
+        padding-right: 2%;
+    }
+    
+    .body-left p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-left: 10%;
+        word-spacing: 2px;
+        padding-top: 1%;
+    }
+    
+    .body-left button {
+        margin-left: 30%;
+        margin-top: 7%;
+        height: 5.5vh;
+        width: 35%;
+        background-color: #f9004d;
+        border: none;
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+    
+    .button-link {
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 17px;
+        color: white;
+    }
+}
