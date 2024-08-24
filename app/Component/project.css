@@ -40,7 +40,7 @@
     letter-spacing: 1px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 1080px) {
     .project_container{
         height: 70vh;
         width:70%;
