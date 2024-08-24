@@ -42,7 +42,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 1080px) {
     .project_container{
-        height: 48vh;
+        height: 50vh;
         width:95%;
         box-shadow: 2px 2px 5px #191919;
         border-radius: 8px;
