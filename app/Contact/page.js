@@ -15,9 +15,9 @@ const ContactPage = () => {
 
   const handleNotification = () => {
     if (name === "" || number === "" || email === "") {
-      toast.warn('Fill the form!', {
+      toast.warn('Fill the form 😒', {
         position: "top-right",
-        autoClose: 1000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -27,9 +27,9 @@ const ContactPage = () => {
         transition: Slide,
       });
     } else {
-      toast.success('Information send successfully!', {
+      toast.success('Information send successfully 👍', {
         position: "top-right",
-        autoClose: 1000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
