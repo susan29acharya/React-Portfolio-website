@@ -8,7 +8,6 @@ import "./projec/project.css"
 import "./Component/Card.css"
 import "./Copyright/Copy.css"
 import "./Component/project.css"
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

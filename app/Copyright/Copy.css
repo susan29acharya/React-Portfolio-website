@@ -71,36 +71,3 @@
 .social-media-instagram-icons:hover{
     cursor: pointer;
 }
-@media screen and (min-width: 300px) and (max-width: 1080px) {
-    .copyright{
-        height: 25vh;
-        width: 95%;
-        margin-left: 2.5%;
-        margin-top: -20%;
-        display: flex;
-        border-top: 1px solid black;
-    }
-    .services{
-        height: 40vh;
-        width: 25%;
-        margin-left:-14%;
-        margin-top: 1%;
-    }
-    .services h3{
-        letter-spacing: 1px;
-        color: #f9004d;
-    }
-    .services li{
-        padding-bottom: 17%;
-        list-style: none;
-        font-size: 15px;
-    }
-    .useful-links li{
-        padding-bottom: 5%;
-        font-size: 17px;
-        list-style: none;
-        margin-bottom: 10%;
-        font-size: 15px;
-    }
-}
-

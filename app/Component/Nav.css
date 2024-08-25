@@ -37,12 +37,4 @@ span{
   color: #f9004d;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1080px) {
-  .nav ul{
-  display: none;
-  }
-  .nav h1{
-    padding-left: 24%;
-    font-size: 35px;
-  }
-}
+
