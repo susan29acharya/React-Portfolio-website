@@ -86,7 +86,7 @@
     border-radius: 10px;
     transition: 0.5s ease;
 }
-.link{
+button a{
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 17px;

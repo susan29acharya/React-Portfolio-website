@@ -24,7 +24,7 @@ const Home_page = () => {
 
           <div className='body-left'>
             <h1>Hey! it's me <span>"Susan</span>Acharya"</h1>
-            <p>-- Web designer and Developer --</p>
+            <p>-- Web Designer and Developer --</p>
             <button onMouseEnter={toasts} className='button-link'>Hire me</button>
           </div>
 

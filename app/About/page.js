@@ -3,19 +3,7 @@ import React from 'react'
 import { ToastContainer, toast, Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Aboutpage = () => {
-  const toaster=()=>{
-    toast.info('Yet to add CV sorry!😔', {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-      transition: Slide,
-      });
-  }
+
   return (
     <>
     <ToastContainer/>
@@ -39,7 +27,7 @@ const Aboutpage = () => {
                 expertise.
                 </p>
             
-            <button className='link' onMouseEnter={toaster}>CV</button>
+            <button className='link'><a href='./images/CV.pdf' target='_blank'>CV</a></button>
             
             </div>
 
