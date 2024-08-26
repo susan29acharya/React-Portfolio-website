@@ -10,40 +10,18 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // handleNotification();
-  };
-
-  const toaster = () => {
+  
     if (name === "" || number === "" || email === "") {
-      toast.warn('Fill the form 😒', {
-        position: "top-right",
-        autoClose: 2000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        transition: Slide,
-      });
+      alert('Fill the form 😒!')
+
     } else {
-      toast.success('Information send successfully 👍', {
-        position: "top-right",
-        autoClose: 2000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        transition: Slide,
-        });
+      alert('Information send successfully 👍')
+
       setName("");
       setNumber("");
       setEmail("");
     }
   };
-
   return (
     <>
       <ToastContainer />
@@ -121,7 +99,7 @@ const ContactPage = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               /><br />
-              <button className='link' type='submit' onClick={toaster}>Send</button>
+              <button className='link'>Send</button>
             </form>
             
           </div>
