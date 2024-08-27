@@ -6,7 +6,12 @@
     width: 90%;
     margin-left: 5%;
     border-radius: 10px;
-
+    position: relative;
+}
+.flexing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .project h1{
     text-align: center;
@@ -17,41 +22,6 @@
     text-transform: capitalize;
 
 }
-.float-right{
-    height: 37vh;
-    width: 89%;
-    position: absolute;
-    z-index: 2;
-    margin-left: 30%; 
-    animation: right  linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-}
-@keyframes right {
-    from{
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-.float-left{
-    animation: left  linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-}
-@keyframes left {
-    from{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-    
-}
+
 
 
