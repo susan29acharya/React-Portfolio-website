@@ -48,5 +48,36 @@
     text-align: justify;
     color:black;
 }
+/* mobile version */
+@media only screen and (max-width: 600px) {
+    .box1{
+        height: 75vw;
+        width:60vw;
+        margin-left: 10vw;
+        margin-bottom: 5vw;
+    }
+    .img{
+        height:40vw;
+        width: 100%;
+      
+    }
+    .img img{
+        height: 40vw;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .info-desc{
+        height: 26vw;
+        width: 99%;
+        padding: 0px;
+    }
+    .info-desc h3{
+        font-size: 4.7vw;
+    }
+    .info-desc p{
+        font-size: 3.5vw;
+    }
+  }
 
 
