@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from 'react';
 import { ToastContainer, toast, Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -28,7 +28,7 @@ const ContactPage = () => {
       <div className='contact-page'>
         <h1>-- Contact --</h1>
         
-        <img src='./images/contactboy.png' alt="Contact" />
+        
 
         <div className='location'>
           <h2>-- Contact me --</h2>
