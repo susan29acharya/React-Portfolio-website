@@ -8,18 +8,18 @@ const Skills_page = () => {
      <h1>-- Skills --</h1>
       <div className='container-flex-box'>
         <Card image='./images/web.png'
-              title='Web Development'
-              desc='I can built desired website as per your need'
+              title='Frontend'
+              desc='Creating visually appealing websites with HTML, CSS, and JavaScript for seamless user experiences.'
         />
 
-          <Card image='./images/app.jpg'
-              title='App Development'
-              desc='I can built desired App as per your need'
+          <Card image='./images/nextjs.png'
+              title='Next.js'
+              desc=' Building fast, scalable web apps with server-side rendering for improved performance and user experience.'
         />
 
-        <Card image='./images/python.jpg'
-              title='Python Software'
-              desc='I can develop desired python software for your company'
+        <Card image='./images/MySQL.png'
+              title='MySQL'
+              desc='Managing databases efficiently to store and retrieve data, ensuring reliability and accessibility.'
         />
 
 

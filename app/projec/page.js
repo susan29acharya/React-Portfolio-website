@@ -14,7 +14,7 @@ const Project_page = () => {
            />
           <Project imgs='./images/nepal.png'
           heading='Nepal website'
-          desc="This is my project -Nepal website- form which someone can learn about nepals history,famous destination and many more." 
+          desc="This is my first project -Nepal website- form which someone can learn about nepals history,famous destination and many more." 
           demo='https://nepal-website.vercel.app/'
           />
           </div>
