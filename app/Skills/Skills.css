@@ -24,19 +24,19 @@
     justify-content: space-evenly;
 }
 /* mobile version */
-@media only screen and (max-width: 600px) {
+@media  screen and (max-width: 479px) {
     .skills-page{
-        height: 235vw;
+        height: 245vh;
         width: 90%;
         margin-left: 5%;
         border-radius: 10px;
     
     }
     .skills-page h1{
-        font-size: 6vw;
+        font-size: 8vw;
     }
     .container-flex-box{
-        height: 220vw;
+        height: 230vh;
         width: 98%;
         margin-left: 1%;
         display: flex;
@@ -44,6 +44,6 @@
         margin-top: 2vw;
         flex-direction: column;
         justify-content: space-evenly;
-    }
+   }
   }
 

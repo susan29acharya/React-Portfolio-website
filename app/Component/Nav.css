@@ -50,13 +50,15 @@ span{
     justify-content: space-between;
   }
   .nav h1{
-    font-size: 4vw;
+    font-size: 5.8vw;
   }
   .nav ul{
     display: none;
   }
   .nav svg{
     display: block;
+    height: 6vh;
+    width: 6vw;
   }
 }
 

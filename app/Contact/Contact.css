@@ -154,4 +154,67 @@
     background-color: #f9004fe5;
     cursor: pointer;
 }
+@media screen and (max-width:479px) {
+    .contact-page{
+        height: 105vh;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-page h1{
+        font-size: 8vw;
+    }
+    .location{
+        display: none;
+    }
+    .contact-form{
+        height:90vh;
+        width: 85%;
+        box-shadow: none;
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    .form{
+        height:90vh;
+        width: 100%;
+        margin: 0%;
+    }
+    .form h3{
+        font-size: 6.5vw;
+        letter-spacing: 1px;
+        color: #191919;
+        text-align: center;
+    }
+    .form p{
+        font-size: 3.5vw;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: -4%;
+    }
+    .form form {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .form form input{
+        height: 10vh;
+        width: 90%;
+        border: none;
+        background-color: whitesmoke;
+        border-radius: 7px;
+        margin-bottom: 7%;
+        padding-left: 10px;
+        font-size: 5vw;
+    }
+    .form form input::placeholder{
+        letter-spacing: 1px;
+        font-size: 3.5vw;
+    }
+    .form form button{
+        margin-top: 5%;
+        height: 9vw;
+        width: 40%;
+        font-size: 4vw;
+        margin-left: 28%;
+
+    }
+}
 

@@ -49,4 +49,34 @@
     padding-left: 35%;
     letter-spacing: 1px;
 }
+@media screen and (max-width:479px) {
+    .project_container{
+        height:85vh;
+        width:100%;
+        margin-top: 0%;
+    }
+    .info h2{
+        font-size:5.5vw;
+    }
+    .info p{
+        text-align: justify;
+        line-height: 20px;
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+    .info a{
+        font-size: 3.5vw;
+        display: none;
+    }
+    .image{
+        height: 40vh;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .image img{
+        height: 40vh;
+        width: 100%;
+        border-radius: 8px;
+    }
+}
 

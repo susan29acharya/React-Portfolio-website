@@ -106,9 +106,9 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width:600px) {
+@media screen and (max-width:479px) {
     .Home-page {
-        height: 80vw;
+        height: 90vh;
         width: 90%;
         margin-left: 5%;
     }
@@ -121,10 +121,10 @@
         margin-left: 2.5%;
     }
     .body-left h1 {
-        padding-top: 10%;
+        padding-top: 20%;
         letter-spacing: 1px;
         word-spacing: 2px;
-        font-size: 7.8vw;
+        font-size: 9vw;
     }
     
     .body-left span {
@@ -134,7 +134,7 @@
     }
     
     .body-left p {
-        font-size: 3.6vw;
+        font-size: 3.9vw;
         letter-spacing: 1px;
         word-spacing: 2px;
         padding-top: 5%;
@@ -142,9 +142,9 @@
     
     .body-left button {
         margin-left: 30%;
-        margin-top: 10vw;
-        height: 8vw;
-        width: 30%;
+        margin-top: 14vw;
+        height: 9vw;
+        width: 40%;
         background-color: #f9004d;
         border: none;
         border-radius: 7px;
@@ -154,7 +154,7 @@
     .button-link {
         text-decoration: none;
         letter-spacing: 2px;
-        font-size: 3vw;
+        font-size: 4vw;
         color: white;
     }
 }
