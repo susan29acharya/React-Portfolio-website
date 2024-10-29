@@ -25,8 +25,8 @@
 @media screen and (max-width: 479px) {
     .project{
         height: 220vw;
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
         border-radius: 10px;
         margin-bottom: 2vw;
         border-bottom: 1px solid gray;

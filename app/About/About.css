@@ -1,7 +1,7 @@
 .about-page{
     height: 85vh;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 0%;
     /* background-color: rgba(0, 0, 0, 0.461); */
 
 }
@@ -101,12 +101,12 @@ button a{
 @media  screen and (max-width:479px) {
     .about-page{
         height: 180vw;
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
         border-bottom: 1px solid gray;
     }
     .container{
-        height: 150vw;
+        height: 183vw;
         width: 98%;
         margin-left:1%;
     }
@@ -119,19 +119,21 @@ button a{
     }
     .flex-box{
         height: 135vw;
-        width: 98%;
+        width: 90%;
         display: flex;
-        margin-left: 1%;
+        margin-left: 5%;
         flex-direction: column;
+
     }
     .left-img-section{
-        height: 77vw;
+        height: 90vw;
         width: 100%;
         margin-left: 0%;
         margin-top: 2%;
+        animation: normal;
     }
     .left-img-section img{
-        height: 77vw;
+        height: 90vw;
         width: 100%;
         border-radius: 10px;
     }
@@ -140,6 +142,7 @@ button a{
         width: 100%;
         margin-left:0%;
         margin-top: 7%;
+        animation: normal;
     }
     .right-info-section p{
         text-align: justify;

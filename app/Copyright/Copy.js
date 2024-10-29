@@ -27,9 +27,9 @@ const Copyright = () => {
           
           <ul>
             <h3>Services</h3>
-            <li>Web Development</li>
-            <li>App Development</li>
-            <li>Python Software</li>
+            <li>Frontend</li>
+            <li>Next.js</li>
+            <li>MySQL</li>
 
           </ul>
         </div>

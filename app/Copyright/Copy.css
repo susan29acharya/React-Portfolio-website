@@ -44,9 +44,8 @@
     letter-spacing: 1px;
     color: #f9004d;
 }
-.useful-links li{
+.useful-links li {
     padding-bottom: 5%;
-    font-size: 17px;
     list-style: none;
 }
 .footer-link{
@@ -75,8 +74,8 @@
 @media screen and (max-width:479px) {
     .copyright{
         height: 117vw;
-        width: 90%;
-        margin-left:5%;
+        width: 100%;
+        margin-left: 0%;
         flex-direction: column;
         justify-content: normal;
         
@@ -91,7 +90,7 @@
         letter-spacing: 1px;
         color: #f9004d;
         text-align: center;
-        font-size: 6vw;
+        font-size: 5vw;
         margin-top: -5%;
     }
     .services li{
@@ -116,15 +115,15 @@
         letter-spacing: 1px;
         color: #f9004d;
         margin-top: -5%;
+        font-size: 5vw;
     }
-    .useful-links li{
-        padding-bottom: 3%;
+    .useful-links li a{
 
         list-style: none;
     }
     .footer-link{
         text-decoration: none;
-        font-size: 4.5vw;
+        font-size:4.6vw !important;
         color: black;
     }
     .icons h3{
@@ -132,5 +131,6 @@
         padding-left: 25px;
         color: #f9004d;
         margin-top: -1%;
+        font-size: 5vw;
     }
 }

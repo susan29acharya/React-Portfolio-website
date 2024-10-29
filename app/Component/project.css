@@ -52,7 +52,8 @@
 @media screen and (max-width:479px) {
     .project_container{
         height:90vw;
-        width:98%;
+        width:90%;
+        margin-left: 5%;
         margin-top: 0%;
     }
     .info h2{
