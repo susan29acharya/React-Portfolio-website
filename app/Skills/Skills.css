@@ -26,17 +26,18 @@
 /* mobile version */
 @media  screen and (max-width: 479px) {
     .skills-page{
-        height: 245vh;
+        height: 295vw;
         width: 90%;
         margin-left: 5%;
-        border-radius: 10px;
+        border-radius:0;
+        border-bottom: 1px solid gray;
     
     }
     .skills-page h1{
         font-size: 8vw;
     }
     .container-flex-box{
-        height: 230vh;
+        height: 273vw;
         width: 98%;
         margin-left: 1%;
         display: flex;
@@ -44,6 +45,7 @@
         margin-top: 2vw;
         flex-direction: column;
         justify-content: space-evenly;
+
    }
   }
 

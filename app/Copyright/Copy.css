@@ -74,16 +74,15 @@
 
 @media screen and (max-width:479px) {
     .copyright{
-        height: 100vh;
+        height: 117vw;
         width: 90%;
         margin-left:5%;
         flex-direction: column;
         justify-content: normal;
-        border-top:1.5px solid gray;
         
     }
     .services{
-        height: 35vh;
+        height: 35vw;
         width: 90%;
         margin-left: 0%;
         margin-top: 1%;
@@ -102,12 +101,13 @@
         font-size: 4.5vw;
     }
     .useful-links{
-        height: 45vh;
+        height: 45vw;
         width: 90%;
         text-align: center;
+        margin-bottom: 13vw;
     }
     .icons{
-        height: 22vh;
+        height: 22vw;
         width: 90%;
         margin-top: 1%;
         text-align: center;

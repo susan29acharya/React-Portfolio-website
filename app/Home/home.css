@@ -108,9 +108,11 @@
 
 @media screen and (max-width:479px) {
     .Home-page {
-        height: 90vh;
+        height: 107vw;
         width: 90%;
         margin-left: 5%;
+        border-bottom: 1px solid gray;
+        border-radius:0;
     }
     .body-right {
     display: none;

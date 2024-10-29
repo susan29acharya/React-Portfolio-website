@@ -24,17 +24,21 @@
 }
 @media screen and (max-width: 479px) {
     .project{
-        height: 200vh;
+        height: 220vw;
         width: 90%;
         margin-left: 5%;
         border-radius: 10px;
+        margin-bottom: 2vw;
+        border-bottom: 1px solid gray;
+        border-radius:0;
     }
     .project h1{
         font-size: 8vw;
     }
     .flexing{
         flex-direction: column;
-        height: 185vh;
+        height: 195vw;
+        width: 98%;
     }
 }
 

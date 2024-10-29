@@ -8,6 +8,7 @@ import "./projec/project.css"
 import "./Component/Card.css"
 import "./Copyright/Copy.css"
 import "./Component/project.css"
+import "./layout.css"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,8 +18,6 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <html lang="en"> <body className={`${inter.className} bodyHeight`}> {children} </body> </html>
   );
 }

@@ -6,6 +6,7 @@ import Skills_page from './Skills/page'
 import Contact_page from './Contact/page'
 import Copyright from './Copyright/Copy'
 import Project_page from './projec/page'
+
 const page = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const page = () => {
     <Contact_page/>
     <Copyright/>
     </>
+    
   )
 }
 

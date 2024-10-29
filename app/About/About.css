@@ -100,12 +100,13 @@ button a{
 /* mobile version */
 @media  screen and (max-width:479px) {
     .about-page{
-        height: 155vh;
+        height: 180vw;
         width: 90%;
         margin-left: 5%;
+        border-bottom: 1px solid gray;
     }
     .container{
-        height: 150vh;
+        height: 150vw;
         width: 98%;
         margin-left:1%;
     }
@@ -117,25 +118,25 @@ button a{
         font-size: 8vw;
     }
     .flex-box{
-        height: 135vh;
+        height: 135vw;
         width: 98%;
         display: flex;
         margin-left: 1%;
         flex-direction: column;
     }
     .left-img-section{
-        height: 77vh;
+        height: 77vw;
         width: 100%;
         margin-left: 0%;
         margin-top: 2%;
     }
     .left-img-section img{
-        height: 77vh;
+        height: 77vw;
         width: 100%;
         border-radius: 10px;
     }
     .right-info-section{
-        height: 57vh;
+        height: 57vw;
         width: 100%;
         margin-left:0%;
         margin-top: 7%;
@@ -149,7 +150,7 @@ button a{
     .right-info-section button{
         margin-left: 30%;
         margin-top: 3%;
-        height: 9vh;
+        height: 9vw;
         width: 40%;
 
     }
