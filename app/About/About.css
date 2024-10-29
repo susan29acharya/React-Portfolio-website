@@ -100,7 +100,7 @@ button a{
 /* mobile version */
 @media  screen and (max-width:479px) {
     .about-page{
-        height: 180vw;
+        height: 185vw;
         width: 100%;
         margin-left: 0%;
         border-bottom: 1px solid gray;
@@ -152,9 +152,12 @@ button a{
     }
     .right-info-section button{
         margin-left: 30%;
-        margin-top: 3%;
+        margin-top: 10vw;
         height: 9vw;
         width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     button a{
